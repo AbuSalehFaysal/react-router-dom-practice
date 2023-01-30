@@ -10,6 +10,7 @@ const Navbar = () => {
   };
   return (
     <nav className="primary-nav">
+      {/* absolute links */}
       <NavLink style={navLinkStyles} to="/">
         Home
       </NavLink>

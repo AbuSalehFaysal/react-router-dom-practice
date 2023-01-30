@@ -6,6 +6,7 @@ const Products = () => {
     <div>
       <input type="search" placeholder="Search Products..." />
       <nav>
+        {/* Relative Links are link which do not start with forward slash unline absolute links */}
         <Link to="featured">Featured</Link>
         <Link to="new">New</Link>
       </nav>
